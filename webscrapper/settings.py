@@ -25,9 +25,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'scrapper_connection.apps.ScrapperConnectionConfig',
+    'scrapper_api.apps.ScrapperApiConfig',
     'frontend.apps.FrontendConfig',
-    'channels',
     'rest_framework',
     'corsheaders',
 ]
@@ -60,7 +59,6 @@ TEMPLATES = [
     },
 ]
 
-ASGI_APPLICATION = 'mywebsite.asgi.application'
 WSGI_APPLICATION = 'webscrapper.wsgi.application'
 
 
